@@ -7,7 +7,7 @@
             "label": "build before debug",
             "type": "shell",
             "command": "g++",
-            "args": ["-g", "${fileDirname}/*.cpp", "-o", "${fileDirname}/a.out"],
+            "args": ["-g", "${fileDirname}/*.cpp", "-o", "${fileDirname}/3dfdtd.out"],
             "group": {
                 "kind": "build",
                 "isDefault": true
